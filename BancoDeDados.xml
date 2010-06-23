@@ -31,21 +31,21 @@
 	
 	<db:contas>
 		<db:poupancas>
-			<db:item_poupancas>
+			<db:item_poupanca>
 				<db:numero_conta></db:numero_conta>
 				<db:titular></db:titular>
 				<db:saldo></db:saldo>
 				<db:valor_tr></db:valor_tr>
-			</db:item_poupancas>
+			</db:item_poupanca>
 		</db:poupancas>
 		<db:contas_correntes>
-			<db:item_contas_correntes>
+			<db:item_conta_corrente>
 				<db:numero_conta></db:numero_conta>
 				<db:titular></db:titular>
 				<db:saldo></db:saldo>
 				<db:limite_credito></db:limite_credito>
 				<db:taxas_juros_credito></db:taxas_juros_credito>
-			</db:item_contas_correntes>
+			</db:item_conta_corrente>
 		</db:contas_correntes>
 	</db:contas>
 	
