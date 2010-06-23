@@ -1,12 +1,14 @@
 package br.ifrn.poo.tads.dominio;
+
 public class Endereco {
 	private String logradouro;
 	private String bairro;
 	private String cidade;
 	private String UF;
 	private String CEP;
-	
-	public Endereco(String logradouro, String bairro, String cidade, String UF, String CEP) {
+
+	public Endereco(String logradouro, String bairro, String cidade, String UF,
+			String CEP) {
 		this.logradouro = logradouro;
 		this.bairro = bairro;
 		this.cidade = cidade;
@@ -56,5 +58,5 @@ public class Endereco {
 
 	public String toString() {
 		return logradouro + " " + bairro + " " + cidade + "/" + UF;
-	}	
+	}
 }
