@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db:banco_de_dados>
+	<db:enderecos>
+		<db:item_endereco id="1">
+			<db:logradouro></db:logradouro>
+			<db:bairro></db:bairro>
+			<db:cidade></db:cidade>
+			<db:uf></db:uf>
+			<db:cep></db:cep>
+		</db:item_endereco>
+	</db:enderecos>
+
+	<db:pessoas>
+		<db:pessoas_fisicas>
+			<db:item_pessoa id="">
+				<db:nome></db:nome>
+				<db:endereco></db:endereco>
+				<db:cpf></db:cpf>
+				<db:identidade></db:identidade>
+			</db:item_pessoa>
+		</db:pessoas_fisicas>
+		<db:pessoas_juridicas>
+			<db:item_pessoa id="">
+				<db:nome></db:nome>
+				<db:endereco></db:endereco>
+				<db:cnpj></db:cnpj>
+				<db:identidade></db:identidade>
+			</db:item_pessoa>
+		</db:pessoas_juridicas>
+	</db:pessoas>
+	
+	<db:contas>
+		<db:poupancas>
+			<db:item_poupancas>
+				<db:numero_conta></db:numero_conta>
+				<db:titular></db:titular>
+				<db:saldo></db:saldo>
+				<db:valor_tr></db:valor_tr>
+			</db:item_poupancas>
+		</db:poupancas>
+		<db:contas_correntes>
+			<db:item_contas_correntes>
+				<db:numero_conta></db:numero_conta>
+				<db:titular></db:titular>
+				<db:saldo></db:saldo>
+				<db:limite_credito></db:limite_credito>
+				<db:taxas_juros_credito></db:taxas_juros_credito>
+			</db:item_contas_correntes>
+		</db:contas_correntes>
+	</db:contas>
+	
+</db:banco_de_dados>
