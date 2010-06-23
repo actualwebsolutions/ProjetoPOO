@@ -2,11 +2,19 @@
 <db:banco_de_dados>
 	<db:enderecos>
 		<db:item_endereco id="1">
-			<db:logradouro></db:logradouro>
-			<db:bairro></db:bairro>
-			<db:cidade></db:cidade>
-			<db:uf></db:uf>
-			<db:cep></db:cep>
+			<db:logradouro>Rua Santa Luzia, 101</db:logradouro>
+			<db:bairro>Quintas</db:bairro>
+			<db:cidade>Natal</db:cidade>
+			<db:uf>RN</db:uf>
+			<db:cep>59035-186</db:cep>
+		</db:item_endereco>
+		
+		<db:item_endereco id="2">
+			<db:logradouro>Rua Des. Hemetério Fernandes, 1027</db:logradouro>
+			<db:bairro>Tirol</db:bairro>
+			<db:cidade>Natal</db:cidade>
+			<db:uf>RN</db:uf>
+			<db:cep>59015-110</db:cep>
 		</db:item_endereco>
 	</db:enderecos>
 
