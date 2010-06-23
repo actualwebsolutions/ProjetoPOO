@@ -31,7 +31,7 @@
 	
 	<db:contas>
 		<db:poupancas>
-			<db:item_poupanca>
+			<db:item_poupanca id="">
 				<db:numero_conta></db:numero_conta>
 				<db:titular></db:titular>
 				<db:saldo></db:saldo>
@@ -39,7 +39,7 @@
 			</db:item_poupanca>
 		</db:poupancas>
 		<db:contas_correntes>
-			<db:item_conta_corrente>
+			<db:item_conta_corrente id="">
 				<db:numero_conta></db:numero_conta>
 				<db:titular></db:titular>
 				<db:saldo></db:saldo>
